@@ -1,0 +1,73 @@
+[
+  {
+    "uniqueIdentifier": "12345",
+    "requestUrl": "/api/data",
+    "requestMethod": "POST",
+    "requestPayload": {
+      "key1": "value1"
+    },
+    "responseStatusCode": 200,
+    "responseContentType": "application/json",
+    "responseValue": {
+      "success": true,
+      "message": "Data fetched successfully"
+    }
+  },
+  {
+    "requestPayload": {
+      "key1": "value1",
+      "key2": "test2"
+    },
+    "requestUrl": "/api/data",
+    "requestMethod": "GET",
+    "responseStatusCode": 200,
+    "responseContentType": "application/json",
+    "responseValue": {
+      "success": true,
+      "message": "Here is your data app2"
+    }
+  },
+  {
+    "uniqueIdentifier": "12345",
+    "requestUrl": "/api/data",
+    "requestMethod": "POST",
+    "requestPayload": {
+      "key3": "value1",
+      "key2": "value1"
+    },
+    "responseStatusCode": 200,
+    "responseContentType": "application/json",
+    "responseValue": {
+      "success": true,
+      "message": "Data fetched successfully"
+    }
+  },
+  {
+    "uniqueIdentifier": "12345",
+    "requestUrl": "/api/data",
+    "requestMethod": "POST",
+    "requestPayload": {
+      "key3": "value4"
+    },
+    "responseStatusCode": 200,
+    "responseContentType": "application/json",
+    "responseValue": {
+      "success": true,
+      "message": "Data fetched successfully"
+    }
+  },
+  {
+    "uniqueIdentifier": "1234",
+    "requestUrl": "/api/data",
+    "requestMethod": "POST",
+    "requestPayload": {
+      "key3": "value4"
+    },
+    "responseStatusCode": 200,
+    "responseContentType": "application/json",
+    "responseValue": {
+      "success": true,
+      "message": "Data fetched successfully"
+    }
+  }
+]
